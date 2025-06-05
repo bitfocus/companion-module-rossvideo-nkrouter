@@ -7,7 +7,7 @@
 		"postinstall": "husky",
 		"format": "prettier -w .",
 		"package": "run build && companion-module-build",
-		"build": "rimraf dist && run build:main",
+		"build": "yarn rimraf dist && yarn build:main",
 		"build:main": "tsc -p tsconfig.build.json",
 		"dev": "tsc -p tsconfig.build.json --watch"
 	},
