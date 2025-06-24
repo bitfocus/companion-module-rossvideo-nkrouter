@@ -22,7 +22,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-module/tools@npm:^2.1.1":
+"@companion-module/tools@npm:^2.3.0":
   version: 2.3.0
   resolution: "@companion-module/tools@npm:2.3.0"
   dependencies:
@@ -1728,7 +1728,7 @@ __metadata:
   resolution: "rossvideo-nkrouter@workspace:."
   dependencies:
     "@companion-module/base": "npm:~1.11.2"
-    "@companion-module/tools": "npm:^2.1.1"
+    "@companion-module/tools": "npm:^2.3.0"
     "@types/node": "npm:^22.10.2"
     prettier: "npm:^3.5.3"
     rimraf: "npm:^6.0.1"
