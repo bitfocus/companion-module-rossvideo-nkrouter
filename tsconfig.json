@@ -1,5 +1,5 @@
 {
-	"extends": "./node_modules/@companion-module/tools/tsconfig/node18/recommended.json",
+	"extends": "@companion-module/tools/tsconfig/node18/recommended",
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules/**"],
 	"compilerOptions": {
