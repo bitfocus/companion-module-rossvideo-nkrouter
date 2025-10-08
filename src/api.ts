@@ -70,7 +70,7 @@ function StartKeepAliveTimer(self: NKRouterInstance, timeout: number) {
 
 	// Create a reconnect timer to watch the socket. If disconnected try to connect.
 	self.keepAliveTimer = setInterval(function () {
-		TransmitCommand(self, Buffer.from('HI\r', 'hex'))
+		TransmitCommand(self, Buffer.from('HI\r', 'ascii'))
 	}, timeout)
 }
 
