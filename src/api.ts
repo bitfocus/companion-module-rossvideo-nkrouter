@@ -102,7 +102,7 @@ export function ChangeXPT(self: NKRouterInstance, address: number, output: numbe
 					decimalToHex(level, 8) +
 					'00'
 
-				const crc = crc16(Buffer.from(string, 'hex')).toString(16)
+				const crc = crc16(Buffer.from(string, 'hex')).toString(16).padStart(4, "0")
 				string = '504153320012' + string + crc
 
 				TransmitCommand(self, Buffer.from(string, 'hex'))
